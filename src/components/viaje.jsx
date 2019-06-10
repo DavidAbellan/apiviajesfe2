@@ -1,4 +1,5 @@
 import React from 'react';
+import imagen from '../components/imagen';
 
 function viaje(props){
  return (
@@ -7,7 +8,7 @@ function viaje(props){
 
         {  
        
-       <img src={props.imagen ?
+       <img className={imagen}  src={props.imagen ?
        props.imagen:"http://josecostaros.es/wp-content/uploads/2013/10/Avatar-Wordpress.jpg"}/> 
          
         }
